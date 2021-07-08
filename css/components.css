@@ -2,6 +2,8 @@
 .plan {
   padding: 10px;
   border: 1px solid #95a4a5;
+
+  font-size: 1.4rem;
 }
 
 .plan__header {
@@ -13,7 +15,7 @@
   text-align: center;
   line-height: 2.5;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 2em;
 }
 
 
@@ -21,12 +23,14 @@
   margin: 20px 0;
 
   text-align: center;
-  font-size: 28px;
+  font-size: 2em;
 }
 
 .plan__description {
   padding: 0;
   margin: 20px 0;
+
+  font-size: 1em;
 
   list-style: none;
 }
@@ -43,11 +47,12 @@
 /* BOTÃO */
 .button {
   display: inline-block;
-  padding: 12px 16px;
+  padding: 0.8em 1.2em;
 
   background-color: #bbb;
   color: #fff;
 
+  font-size: 1em;
   text-decoration: none;
 }
 
