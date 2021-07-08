@@ -41,3 +41,9 @@
   color: #fff;
   text-align: center;
 }
+
+@media (max-width: 749px) {
+  .layout-plans .row > div:not(.last-column) {
+    margin-bottom: 40px;
+  }
+}
