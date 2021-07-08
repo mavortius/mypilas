@@ -118,3 +118,42 @@
     font-size: 2.2rem;
   }
 }
+
+/* DEPOIMENTO */
+.testimonial {
+  font-size: 2.2rem;
+}
+
+@media (min-width: 992px) {
+  .testimonial {
+    padding-left: 15%;
+    padding-right: 15%;
+
+    font-size: 2.8rem;
+  }
+}
+
+.testimonial > blockquote {
+  margin: 0;
+  padding: 0 60px;
+
+  text-align: center;
+  font-size: 1em;
+}
+
+.testimonial__author {
+  margin-top: 40px;
+
+  text-align: center;
+  font-size: 0.7272em;
+}
+
+.testimonial__author > img {
+  border-radius: 50%;
+}
+
+.testimonial__author > p {
+  margin-top: 10px;
+}
+
+
