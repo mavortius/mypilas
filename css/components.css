@@ -70,3 +70,51 @@
 .button--signup:hover, .button--signup:focus {
   background-color: #0e6400;
 }
+
+.button--main {
+  border-radius: 10px;
+
+  background-color: #004b86;
+}
+
+.button--main:hover, .button--main:focus {
+  background-color: #003b6a;
+}
+
+
+/* CHAMADA */
+.call {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.call__title {
+  margin: 0;
+
+  color: #fff;
+
+  font-size: 3.375em;
+  line-height: 0.9;
+  text-shadow: 1px 1px #313131;
+}
+
+.call__caption {
+  margin: 60px 0;
+
+  color: #fff;
+
+  font-size: 1em;
+}
+
+.call__action {
+  font-size: 1em;
+}
+
+@media (min-width: 992px) {
+  .call {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 2.2rem;
+  }
+}
