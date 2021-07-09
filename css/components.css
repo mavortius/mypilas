@@ -66,6 +66,7 @@
 .button {
   display: inline-block;
   padding: 0.8em 1.2em;
+  border: none;
 
   background-color: #bbb;
   color: #fff;
@@ -194,6 +195,10 @@
 
 }
 
+.navigation--signup {
+  text-align: center;
+}
+
 .navigation__menu {
   float: right;
 }
@@ -263,4 +268,32 @@
   .menu__item:last-of-type {
     padding-right: 0;
   }
+}
+
+/* FORM-TITLE */
+.form-title {
+  margin: 0 0 40px;
+
+  border-bottom: 1px solid #ccc;
+
+  font-size: 2.6rem;
+  font-weight: normal;
+  color: #004b86;
+}
+
+/* INPUT-GROUP */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group > label {
+  display: block;
+
+  font-weight: bold;
+}
+
+/* FIELD */
+.field {
+  display: block;
+  width: 100%;
 }
