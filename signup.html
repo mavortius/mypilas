@@ -29,12 +29,74 @@
 
           <div class="input-group">
             <label for="razao-social">Razão social</label>
-            <input id="razao-social" type="text" class="field" />
+            <input id="razao-social" type="text" class="field" required />
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="input-group">
+                <label for="cnpj">CNPJ</label>
+                <input id="cnpj" type="text" class="field" required />
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="input-group">
+                <label for="data-nascimento">Data de fundação</label>
+                <input id="data-nascimento" type="date" class="field" required />
+              </div>
+            </div>
           </div>
 
           <div class="input-group">
-            <label for="cnpj">CNPJ</label>
-            <input id="cnpj" type="text" class="field" />
+            <label for="responsavel">Responsável</label>
+            <input id="responsavel" type="text" class="field" required />
+          </div>
+
+          <div class="input-group">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" class="field" required />
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="input-group">
+                <label for="estado">Estado</label>
+                <select id="estado" class="field">
+                  <option>Selecione</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="CE">Ceará</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="input-group">
+                <label for="cidade">Cidade</label>
+                <select id="cidade" class="field">
+                  <option>Selecione</option>
+                  <option value="1">Uberlândia</option>
+                  <option value="2">São Paulo</option>
+                  <option value="3">Fortaleza</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="input-group">
+                <label for="senha">Senha</label>
+                <input id="senha" type="password" class="field" required />
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="input-group">
+                <label for="confirmacao-senha">Confirme a senha</label>
+                <input id="confirmacao-senha" type="password" class="field" required />
+              </div>
+            </div>
           </div>
 
           <div style="text-align: center; margin-top: 40px">
