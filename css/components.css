@@ -199,7 +199,7 @@
 }
 
 /* BUTTON-SWITCHER */
-.button-switcher {
+.button-toggler {
   width: 24px;
   height: 24px;
   border: 0;
@@ -231,11 +231,16 @@
     left: 0;
     bottom: 0;
 
+    display: none;
     width: 200px;
     padding: 20px;
     border-right: 1px solid #eee;
 
     background-color: #fbfbfb;
+  }
+
+  .menu--is-shown {
+    display: block;
   }
 
   .menu__item {
